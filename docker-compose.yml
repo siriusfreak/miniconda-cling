@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  miniconda:
+    container_name: miniconda-cling
+    hostname: miniconda-cling
+    image: miniconda-cling
+    ports:
+      - 8666:8888
+    volumes:
+      - ./notebooks:/opt/notebooks
