@@ -2,7 +2,7 @@
 
 Usage:
 
-```docker build -t minicond-cling```
+```docker build -t miniconda-cling```
 
 Then simply run by docker-compose:
 
