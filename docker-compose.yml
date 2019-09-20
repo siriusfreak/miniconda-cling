@@ -5,6 +5,7 @@ services:
     container_name: miniconda-cling
     hostname: miniconda-cling
     image: miniconda-cling
+    restart: unless-stopped
     ports:
       - 8666:8888
     volumes:
