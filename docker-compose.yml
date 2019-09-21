@@ -8,5 +8,8 @@ services:
     restart: unless-stopped
     ports:
       - 8666:8888
+      - 8667:8000
+      - 8668:5000
     volumes:
       - ./notebooks:/opt/notebooks
+      - ./users_home:/home
