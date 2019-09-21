@@ -7,9 +7,8 @@ services:
     image: miniconda-cling
     restart: unless-stopped
     ports:
-      - 8666:8888
-      - 8667:8000
-      - 8668:5000
+      - 8666:8000
+      - 8777:5000
     volumes:
       - ./notebooks:/opt/notebooks
       - ./users_home:/home

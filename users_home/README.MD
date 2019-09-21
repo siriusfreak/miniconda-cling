@@ -1,1 +1,1 @@
-Folder for public files
+Folder for users files
